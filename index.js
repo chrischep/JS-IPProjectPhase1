@@ -47,7 +47,15 @@ function getAllCars(){
     
 }
 function saleCar(carObj){
-    fetch ('http://localhost:3000/carData')
+    fetch ('http://localhost:3000/carData',{
+        method:'POST',
+        headers:{
+            'Content-Type':'application/json'
+        },
+        body:JSON.stringify(carObj)
+    })
+    .then (res=> res.json())
+    .then(car=> console.log(car))
 }
 
 function initialize(){
