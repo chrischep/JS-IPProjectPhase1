@@ -23,6 +23,8 @@ function renderOneCar(car){
     `
 
 }
+//add animal card to DOM
+document.querySelector('#car-list').appendChild(card)
 function initialize(){
   carData.forEach (car=>
     renderOneCar(car)) 
