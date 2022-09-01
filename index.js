@@ -1,6 +1,20 @@
 //event listener
-// document.querySelector('car-form').addEventListener('submit',
-// handleSubmit)
+document.querySelector('car-form').addEventListener('submit',
+handleSubmit)
+
+//event handlers
+function handleSubmit(e){
+    e.preventDefault()
+    let carObj={
+        name:e.target.name.value,
+        imageURL:e.target.image_url.value,
+        description:e.target.description.value,
+        likes:0  
+    }
+    renderOneCar(carObj)
+    saleCar(carObj)
+}
+
 //Dom render functions
 function renderOneCar(car){
     //build car
@@ -31,6 +45,9 @@ function getAllCars(){
     .then (carData=> carData.forEach(car=>
        renderOneCar(car) ))
     
+}
+function saleCar(carObj){
+    fetch ('http://localhost:3000/carData')
 }
 
 function initialize(){
