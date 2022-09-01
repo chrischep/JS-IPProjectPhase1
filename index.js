@@ -57,6 +57,17 @@ function saleCar(carObj){
     .then (res=> res.json())
     .then(car=> console.log(car))
 }
+function updateLike(carObj){
+    fetch(`http://localhost:3000/carData/${carObj.id}`,{
+       method:'PATCH',
+       headers:{
+        'Content-Type':'application/json'
+       },
+       body:JSON.stringify(carObj)
+    })
+    .then(res=> res.json())
+    .then(car=> console.log(car))
+}
 
 function initialize(){
 //   carData.forEach (car=>
