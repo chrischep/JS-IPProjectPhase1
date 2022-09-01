@@ -1,0 +1,32 @@
+{
+    "carData":[
+{
+ "name":"jeep wrangler",
+ "imageURL":"/home/moringa/Desktop/projecJS/project/assets/images/2013_jeep_wrangler1_.jpg",
+ "description":"Image result for jeep wrangler description The Jeep Wrangler is a series of compact and mid-size four-wheel drive off-road SUVs manufactured by Jeep since 1986, and currently in its fourth generation. The Wrangler JL, the most recent generation, was unveiled in late 2017 and is produced at Jeep's Toledo Complex.",
+ "likes":"0",
+ "id":1
+},
+{
+    "name":"bmw suv",
+    "imageURL":"/home/moringa/Desktop/projecJS/project/assets/images/2022_bmw_x3_4dr-suv_7.jpg",
+    "description":"The X3 is BMW's best-selling vehicle, hot off a midcycle refresh for the 2022 model year. The venerable small luxury SUV is plenty sporty and fun to drive, and it offers reasonable storage and fuel economy as a five-seater, two-row vehicle. The X3 sits between the compact X1 and the larger X5, which offers optional three-row seating.",
+    "likes":"0",
+    "id":2
+},
+{
+    "name":"2022 lamborghini uris",
+    "imageURL":"/home/moringa/Desktop/projecJS/project/assets/images/2022_lamborghini_urus_4dr-suv.jpg",
+    "description":"The 2022 Lamborghini Urus is an exotic high-performance SUV. When it comes to carrying people and cargo, it doesn't get much faster than this. A powerful V8, sport-tuned suspension and a sophisticated all-wheel-drive system that works wonders at managing traction make the Urus feel like a true Lamborghini. The Urus' interior and exterior design draws a lot of influence from other Lamborghini models, especially the Huracan, so it looks like one, too.",
+    "likes":"0",
+    "id":3
+},
+{
+    "name":"mercedes-benz glc",
+    "imageURL":"/home/moringa/Desktop/projecJS/project/assets/images/2022_mercedes-benz_glc-class_7.jpg",
+    "description":"Excellence is best demonstrated over time, and the Mercedes-Benz GLC is a testament to that philosophy. Since this current generation debuted back for the 2016 model year, the GLC has been one of our most highly recommended small luxury SUVs. That's quite impressive considering that key rival SUVs either benefit from more recent redesigns (Audi Q5 and BMW X3) or are completely new to begin with (Genesis GV70). For those who favor classic styling and luxury, the GLC is still the one to get.",
+    "likes":"0",
+    "id":4
+}
+ ]
+}
