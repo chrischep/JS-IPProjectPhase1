@@ -1,3 +1,6 @@
+document.addEventListener("DOMContentLoaded",(e)=>{
+    getAllCars()
+})
 //event listener
 document.querySelector('car-form').addEventListener('submit',
 handleSubmit)
