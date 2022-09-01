@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded",(e)=>{
     getAllCars()
 })
 //event listener
-document.querySelector('car-form').addEventListener('submit',
+document.querySelector('#car-form').addEventListener('submit',
 handleSubmit)
 
 //event handlers
@@ -40,7 +40,7 @@ function renderOneCar(car){
     `
     card.querySelector('#like').addEventListener('click',()=>{
         car.likes+=1
-        card.querySelector('span').textContent=animal.likes
+        card.querySelector('span').textContent=car.likes
         updateLike(car)
     })
 
@@ -92,8 +92,8 @@ function deleteCar(id){
     .then(car=> console.log(car))
 }
 
-function initialize(){
-//   carData.forEach (car=>
-//     renderOneCar(car)) 
-}
-initialize()
+// function initialize(){
+// //   carData.forEach (car=>
+// //     renderOneCar(car)) 
+// }
+// initialize()
