@@ -1,32 +1,53 @@
 {
-    "carData":[
-{
- "name":"jeep wrangler",
- "imageURL":"/home/moringa/Desktop/projecJS/project/assets/images/2013_jeep_wrangler1_.jpg",
- "description":"Image result for jeep wrangler description The Jeep Wrangler is a series of compact and mid-size four-wheel drive off-road SUVs manufactured by Jeep since 1986, and currently in its fourth generation. The Wrangler JL, the most recent generation, was unveiled in late 2017 and is produced at Jeep's Toledo Complex.",
- "likes":"0",
- "id":1
-},
-{
-    "name":"bmw suv",
-    "imageURL":"/home/moringa/Desktop/projecJS/project/assets/images/2022_bmw_x3_4dr-suv_7.jpg",
-    "description":"The X3 is BMW's best-selling vehicle, hot off a midcycle refresh for the 2022 model year. The venerable small luxury SUV is plenty sporty and fun to drive, and it offers reasonable storage and fuel economy as a five-seater, two-row vehicle. The X3 sits between the compact X1 and the larger X5, which offers optional three-row seating.",
-    "likes":"0",
-    "id":2
-},
-{
-    "name":"2022 lamborghini uris",
-    "imageURL":"/home/moringa/Desktop/projecJS/project/assets/images/2022_lamborghini_urus_4dr-suv.jpg",
-    "description":"The 2022 Lamborghini Urus is an exotic high-performance SUV. When it comes to carrying people and cargo, it doesn't get much faster than this. A powerful V8, sport-tuned suspension and a sophisticated all-wheel-drive system that works wonders at managing traction make the Urus feel like a true Lamborghini. The Urus' interior and exterior design draws a lot of influence from other Lamborghini models, especially the Huracan, so it looks like one, too.",
-    "likes":"0",
-    "id":3
-},
-{
-    "name":"mercedes-benz glc",
-    "imageURL":"/home/moringa/Desktop/projecJS/project/assets/images/2022_mercedes-benz_glc-class_7.jpg",
-    "description":"Excellence is best demonstrated over time, and the Mercedes-Benz GLC is a testament to that philosophy. Since this current generation debuted back for the 2016 model year, the GLC has been one of our most highly recommended small luxury SUVs. That's quite impressive considering that key rival SUVs either benefit from more recent redesigns (Audi Q5 and BMW X3) or are completely new to begin with (Genesis GV70). For those who favor classic styling and luxury, the GLC is still the one to get.",
-    "likes":"0",
-    "id":4
-}
- ]
+  "carData": [
+    {
+      "name": "bmw suv",
+      "imageURL": "/assets/images/2022_bmw_x3_4dr-suv_7.jpg",
+      "description": "The X3 is BMW's best-selling vehicle, hot off a midcycle refresh for the 2022 model year. The venerable small luxury SUV is plenty sporty and fun to drive, and it offers reasonable storage and fuel economy as a five-seater, two-row vehicle. The X3 sits between the compact X1 and the larger X5, which offers optional three-row seating.",
+      "likes": "01111",
+      "id": 2
+    },
+    {
+      "name": "2022 lamborghini uris",
+      "imageURL": "/assets/images/2022_lamborghini_urus_4dr-suv.jpg",
+      "description": "The 2022 Lamborghini Urus is an exotic high-performance SUV. When it comes to carrying people and cargo, it doesn't get much faster than this. A powerful V8, sport-tuned suspension and a sophisticated all-wheel-drive system that works wonders at managing traction make the Urus feel like a true Lamborghini. The Urus' interior and exterior design draws a lot of influence from other Lamborghini models, especially the Huracan, so it looks like one, too.",
+      "likes": "01",
+      "id": 3
+    },
+    {
+      "name": "Ford F-150",
+      "imageURL": "https://media.ed.edmunds-media.com/ford/f-150/2021/oem/2021_ford_f-150_crew-cab-pickup_lariat_fq_oem_3_815.jpg",
+      "description": "Like any other full-size truck, the F-150 is offered in a variety of body styles, bed lengths and engine choices. For 2022, the 3.0-liter diesel option has been discontinued, though an upcoming full electric model, the F-150 Lightning, goes on sale in 2022. And Ford's PowerBoost hybrid powertrain remains an effective full-size truck alternative, delivering strong performance while returning high fuel economy figures. It can even serve as a potential backup power source for your house.",
+      "likes": 1,
+      "id": 4
+    },
+    {
+      "name": "Toyota RAV4",
+      "imageURL": "https://media.ed.edmunds-media.com/toyota/rav4/2020/oem/2020_toyota_rav4_4dr-suv_adventure_fq_oem_12_1600x1067.jpg",
+      "description": "Toyota offers a wide range of trim levels for the RAV4, so there's a good chance you'll find the one for you. There's a wallet-friendly base model, a top-trim version loaded with all the features, and more in between. There's also the RAV4 Adventure, which has tougher exterior styling and a bit more off-road capabilities, as well as the TRD Off-Road, which adds all-terrain tires and special suspension tuning. These trims don't transform the RAV4 into a Jeep Wrangler, but they do give it more capability than most other small SUVs.",
+      "likes": 0,
+      "id": 5
+    },
+    {
+      "name": "2022 RAM 1500",
+      "imageURL": "https://media.ed.edmunds-media.com/ram/1500/2022/oem/2022_ram_1500_crew-cab-pickup_big-horn_fq_oem_1_815.jpg",
+      "description": "Last year, Ram dropped the 702-horsepower TRX performance truck into the market, making it the truck to beat for high-speed desert running and all-around attitude. The TRX brought the aging Ram 1500 even more deserved recognition, and it remains one of our favorites in the light-duty full-size segment for its accessible technology, comfortable and high-quality interior, smooth ride, and stout payload and towing capacity.",
+      "likes": 0,
+      "id": 6
+    },
+    {
+      "name": "Ford Escape",
+      "imageURL": "https://media.ed.edmunds-media.com/ford/escape/2021/oem/2021_ford_escape_4dr-suv_se_fq_oem_1_815.jpg",
+      "description": "The 2022 Ford Escape is a small SUV that sits in a sweet spot between the automaker's smaller Ford EcoSport and larger Ford Edge and three-row Explorer. It competes in one of the most hotly contested segments around, with rivals including the Honda CR-V, Jeep Cherokee, Mazda CX-5 and Toyota RAV4. The Escape was fully redesigned just a couple of years ago, which explains the lack of changes or upgrades for the 2022 model.",
+      "likes": 0,
+      "id": 7
+    },
+    {
+      "name": "Rolls-Royce Ghost",
+      "imageURL": "https://media.ed.edmunds-media.com/rolls-royce/ghost/2021/oem/2021_rolls-royce_ghost_sedan_base_fq_oem_2_1600x1067.jpg",
+      "description": "The 2022 Rolls-Royce Ghost is offered in the following submodels: Ghost Sedan. Available styles include 4dr Sedan AWD (6.7L 12cyl Turbo 8A). The 2022 Rolls-Royce Ghost comes with all wheel drive. Available transmissions include: 8-speed automatic. The 2022 Rolls-Royce Ghost comes with a 4 yr./ unlimited mi. basic warranty, a 4 yr./ unlimited mi. roadside warranty, and a 4 yr./ unlimited mi. powertrain warranty.",
+      "likes": 0,
+      "id": 8
+    }
+  ]
 }
