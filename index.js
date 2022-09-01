@@ -21,12 +21,20 @@ function renderOneCar(car){
     <button id="delete">Delete car</button>
     </div>
     `
-
+    //add car card to DOM
+    document.querySelector('#car-list').appendChild(card)
 }
-//add animal card to DOM
-document.querySelector('#car-list').appendChild(card)
+//fetch requests
+function getAllCars(){
+    fetch('http://localhost:3000/carData')
+    .then(res=> res.json())
+    .then (carData=> carData.forEach(car=>
+       renderOneCar(car) ))
+    
+}
+
 function initialize(){
-  carData.forEach (car=>
-    renderOneCar(car)) 
+//   carData.forEach (car=>
+//     renderOneCar(car)) 
 }
 initialize()
