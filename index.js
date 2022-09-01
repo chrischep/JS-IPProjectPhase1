@@ -38,6 +38,12 @@ function renderOneCar(car){
     <button id="delete">Delete car</button>
     </div>
     `
+    card.querySelector('#like').addEventListener('click',()=>{
+        car.likes+=1
+        card.querySelector('span').textContent=animal.likes
+        updateLike(car)
+    })
+    
     //add car card to DOM
     document.querySelector('#car-list').appendChild(card)
 }
