@@ -43,7 +43,11 @@ function renderOneCar(car){
         card.querySelector('span').textContent=animal.likes
         updateLike(car)
     })
-    
+
+    card.querySelector('#delete').addEventListener('click',()=>{
+        card.remove()
+        deleteCar(car.id)
+    })
     //add car card to DOM
     document.querySelector('#car-list').appendChild(card)
 }
