@@ -68,6 +68,16 @@ function updateLike(carObj){
     .then(res=> res.json())
     .then(car=> console.log(car))
 }
+function deleteCar(id){
+    fetch(`http://localhost:3000/carData/${id}`,{
+        method:'DELETE',
+        headers:{
+            'Content-Type':'application/json' 
+        }
+    })
+    .then (res => res.json())
+    .then(car=> console.log(car))
+}
 
 function initialize(){
 //   carData.forEach (car=>
