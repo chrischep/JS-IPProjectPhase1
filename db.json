@@ -1,53 +1,67 @@
 {
   "carData": [
     {
-      "name": "bmw suv",
-      "imageURL": "/assets/images/2022_bmw_x3_4dr-suv_7.jpg",
-      "description": "The X3 is BMW's best-selling vehicle, hot off a midcycle refresh for the 2022 model year. The venerable small luxury SUV is plenty sporty and fun to drive, and it offers reasonable storage and fuel economy as a five-seater, two-row vehicle. The X3 sits between the compact X1 and the larger X5, which offers optional three-row seating.",
-      "likes": "01111",
-      "id": 2
+      "name": "Buick Enclave   $43,000 - $57,300",
+      "imageURL": "https://media.ed.edmunds-media.com/buick/enclave/2022/oem/2022_buick_enclave_4dr-suv_avenir_fq_oem_1_815.jpg",
+      "description": "The 2023 Buick Enclave is a midsize three-row SUV with seating for seven passengers. In this class of vehicles, the Enclave earns praise for its generous interior and cargo space, quiet and comfortable ride, and long list of standard features. In 2022, the Enclave received several updates that include freshened styling, interior updates and more standard technology features. As a result, we don't expect any significant changes for the 2023 Buick Enclave.",
+      "likes": 28,
+      "id": 13
     },
     {
-      "name": "2022 lamborghini uris",
-      "imageURL": "/assets/images/2022_lamborghini_urus_4dr-suv.jpg",
-      "description": "The 2022 Lamborghini Urus is an exotic high-performance SUV. When it comes to carrying people and cargo, it doesn't get much faster than this. A powerful V8, sport-tuned suspension and a sophisticated all-wheel-drive system that works wonders at managing traction make the Urus feel like a true Lamborghini. The Urus' interior and exterior design draws a lot of influence from other Lamborghini models, especially the Huracan, so it looks like one, too.",
-      "likes": "01",
-      "id": 3
-    },
-    {
-      "name": "Ford F-150",
-      "imageURL": "https://media.ed.edmunds-media.com/ford/f-150/2021/oem/2021_ford_f-150_crew-cab-pickup_lariat_fq_oem_3_815.jpg",
-      "description": "Like any other full-size truck, the F-150 is offered in a variety of body styles, bed lengths and engine choices. For 2022, the 3.0-liter diesel option has been discontinued, though an upcoming full electric model, the F-150 Lightning, goes on sale in 2022. And Ford's PowerBoost hybrid powertrain remains an effective full-size truck alternative, delivering strong performance while returning high fuel economy figures. It can even serve as a potential backup power source for your house.",
+      "name": "2023 Volkswagen Atlas  $34,600 - $51,790",
+      "imageURL": "https://media.ed.edmunds-media.com/volkswagen/atlas/2022/oem/2022_volkswagen_atlas_4dr-suv_sel_fq_oem_1_815.jpg",
+      "description": "The 2023 Volkswagen Atlas is a seven-passenger three-row SUV and is the largest vehicle VW currently sells in the U.S. The Atlas has been one of the better midsize three-row SUVs since it debuted in 2018, and it offers impressive passenger comfort, even in the third row. We also give it high marks for its simple, easy-to-use interior layout and its pleasant road manners.",
       "likes": 1,
-      "id": 4
+      "id": 14
     },
     {
-      "name": "Toyota RAV4",
-      "imageURL": "https://media.ed.edmunds-media.com/toyota/rav4/2020/oem/2020_toyota_rav4_4dr-suv_adventure_fq_oem_12_1600x1067.jpg",
-      "description": "Toyota offers a wide range of trim levels for the RAV4, so there's a good chance you'll find the one for you. There's a wallet-friendly base model, a top-trim version loaded with all the features, and more in between. There's also the RAV4 Adventure, which has tougher exterior styling and a bit more off-road capabilities, as well as the TRD Off-Road, which adds all-terrain tires and special suspension tuning. These trims don't transform the RAV4 into a Jeep Wrangler, but they do give it more capability than most other small SUVs.",
+      "name": "2022 Dodge Challenger   $30,430 - $85,430",
+      "imageURL": "https://media.ed.edmunds-media.com/dodge/challenger/2022/oem/2022_dodge_challenger_coupe_gt_fq_oem_1_815.jpg",
+      "description": "Dodge's big muscle car is a hoot to drive, even if it doesn't feel quite as sharp as the Chevrolet Camaro or Ford Mustang. Of the three, the 2022 Challenger is the most old-school, which makes sense since the design dates to 2008, which itself recalls the Challengers from the early 1970s. This is a big, heavy coupe that feels big and heavy from behind the wheel",
       "likes": 0,
-      "id": 5
+      "id": 15
     },
     {
-      "name": "2022 RAM 1500",
+      "name": "2022 Toyota RAV4  $26,975 - $36,915",
+      "imageURL": "https://media.ed.edmunds-media.com/toyota/rav4/2022/oem/2022_toyota_rav4_4dr-suv_base_fq_oem_1_815.jpg",
+      "description": "The Toyota RAV4 is consistently one of the best-selling vehicles on the market, and if you're looking for a small SUV, chances are the RAV4 is on your short list. Highlight qualities include a roomy interior, a smooth ride and easy-to-use controls. It's an SUV you can get in and drive without thinking much about it.\n\n",
+      "likes": 0,
+      "id": 16
+    },
+    {
+      "name": "2022 Ram 1500  $39,200 - $78,790",
       "imageURL": "https://media.ed.edmunds-media.com/ram/1500/2022/oem/2022_ram_1500_crew-cab-pickup_big-horn_fq_oem_1_815.jpg",
       "description": "Last year, Ram dropped the 702-horsepower TRX performance truck into the market, making it the truck to beat for high-speed desert running and all-around attitude. The TRX brought the aging Ram 1500 even more deserved recognition, and it remains one of our favorites in the light-duty full-size segment for its accessible technology, comfortable and high-quality interior, smooth ride, and stout payload and towing capacity.",
       "likes": 0,
-      "id": 6
+      "id": 17
     },
     {
-      "name": "Ford Escape",
+      "name": "2022 Ford Escape    $27,025 - $37,145",
       "imageURL": "https://media.ed.edmunds-media.com/ford/escape/2021/oem/2021_ford_escape_4dr-suv_se_fq_oem_1_815.jpg",
-      "description": "The 2022 Ford Escape is a small SUV that sits in a sweet spot between the automaker's smaller Ford EcoSport and larger Ford Edge and three-row Explorer. It competes in one of the most hotly contested segments around, with rivals including the Honda CR-V, Jeep Cherokee, Mazda CX-5 and Toyota RAV4. The Escape was fully redesigned just a couple of years ago, which explains the lack of changes or upgrades for the 2022 model.",
+      "description": "The 2022 Ford Escape is a small SUV that sits in a sweet spot between the automaker's smaller Ford EcoSport and larger Ford Edge and three-row Explorer. It competes in one of the most hotly contested segments around, with rivals including the Honda CR-V, Jeep Cherokee, Mazda CX-5 and Toyota RAV4. The Escape was fully redesigned just a couple of years ago, which explains the lack of changes or upgrades for the 2022 model.\n\n",
       "likes": 0,
-      "id": 7
+      "id": 18
     },
     {
-      "name": "Rolls-Royce Ghost",
-      "imageURL": "https://media.ed.edmunds-media.com/rolls-royce/ghost/2021/oem/2021_rolls-royce_ghost_sedan_base_fq_oem_2_1600x1067.jpg",
+      "name": "2022 Rolls-Royce Ghost    $339,000",
+      "imageURL": "https://media.ed.edmunds-media.com/rolls-royce/ghost/2021/oem/2021_rolls-royce_ghost_sedan_base_fq_oem_1_1600x1067.jpg",
       "description": "The 2022 Rolls-Royce Ghost is offered in the following submodels: Ghost Sedan. Available styles include 4dr Sedan AWD (6.7L 12cyl Turbo 8A). The 2022 Rolls-Royce Ghost comes with all wheel drive. Available transmissions include: 8-speed automatic. The 2022 Rolls-Royce Ghost comes with a 4 yr./ unlimited mi. basic warranty, a 4 yr./ unlimited mi. roadside warranty, and a 4 yr./ unlimited mi. powertrain warranty.",
       "likes": 0,
-      "id": 8
+      "id": 19
+    },
+    {
+      "name": "2023 Volvo XC60     $43,450 - $74,150",
+      "imageURL": "https://media.ed.edmunds-media.com/volvo/xc60/2023/oem/2023_volvo_xc60_4dr-suv_recharge-t8-plus-bright_fq_oem_1_815.jpg",
+      "description": "The XC60 stands out from the rest of the class with its unique Scandinavian design. Its clean, almost minimal exterior styling could never be mistaken for a BMW or Benz. Inside, the sophisticated cabin can be optioned with some unique upholstery options, including a very attractive wool blend fabric. There are also several engine choices, from economical mild hybrids to a powerful plug-in hybrid that can travel up to 35 miles on battery power alone.\n\nSince the XC60 is a Volvo, safety plays a big part. You get all of the expected advanced safety features as standard equipment, while excellent crash test scores provide further assurance. It's even been named a Top Safety Pick+ by the Insurance Institute for Highway Safety. For 2023, the trim levels have been renamed and their features have been slightly revised. The plug-in hybrid model also gains more power and EV range.",
+      "likes": 0,
+      "id": 20
+    },
+    {
+      "name": "2022 Toyota Highlander     $35,855 - $49,960",
+      "imageURL": "https://media.ed.edmunds-media.com/toyota/highlander/2021/oem/2021_toyota_highlander_4dr-suv_platinum_fq_oem_1_815.jpg",
+      "description": " Unlike some SUVs that can be slow to respond when you first step on the accelerator, the Toyota Highlander delivers near immediate response. At the Edmunds test track we measured 0-60 mph at 7.5 seconds, which is slightly better than average and a dead heat with the top-rated Kia Telluride — though the Highlander feels a little quicker from the driver's seat.\n\nThe Highlander's ability to negotiate a twisty road has improved. Body roll is controlled as you go around turns, and the available torque-vectoring AWD system can also help by applying engine power to individual rear wheels to subtly enhance the SUV's handling balance (in addition to the usual benefit of extra traction in wet weather).",
+      "likes": 0,
+      "id": 21
     }
   ]
 }
