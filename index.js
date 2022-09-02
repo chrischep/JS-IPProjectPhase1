@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded",(e)=>{
+    e.preventDefault()
     getAllCars()
 })
 //event listener
@@ -14,7 +15,7 @@ function handleSubmit(e){
         description:e.target.description.value,
         likes:0  
     }
-    renderOneCar(carObj)
+    // renderOneCar(carObj)
     saleCar(carObj)
 }
 
@@ -26,10 +27,10 @@ function renderOneCar(car){
     card.innerHTML=`
     <img src ="${car.imageURL}">
     <div class="content">
-    <h4>${car.name}</h4>
+    <h2>${car.name}</h2>
     <p>
-    $<span class="like-count">
-    ${car.likes}</span>Liked
+    <span class="like-count">
+    ${car.likes}  Liked</span>
     </p>
     <p>${car.description}</p>
     </div>
@@ -38,18 +39,22 @@ function renderOneCar(car){
     <button id="delete">Delete car</button>
     </div>
     `
-    card.querySelector('#like').addEventListener('click',()=>{
-        car.likes+=1
-        card.querySelector('span').textContent=car.likes
-        updateLike(car)
+        //add car card to DOM
+        document.querySelector('#car-list').appendChild(card)
+
+    card.querySelector('#like').addEventListener('click',(e)=>{
+        e.preventDefault()
+        // car.likes+=1
+        // card.querySelector('span').textContent=car.likes
+        updateLike(car.id, car.likes)
     })
 
-    card.querySelector('#delete').addEventListener('click',()=>{
+    card.querySelector('#delete').addEventListener('click',(e)=>{
+        e.preventDefault()
         card.remove()
         deleteCar(car.id)
     })
-    //add car card to DOM
-    document.querySelector('#car-list').appendChild(card)
+
 }
 //fetch requests
 function getAllCars(){
@@ -70,13 +75,13 @@ function saleCar(carObj){
     .then (res=> res.json())
     .then(car=> console.log(car))
 }
-function updateLike(carObj){
-    fetch(`http://localhost:3000/carData/${carObj.id}`,{
+function updateLike(id,like){
+    fetch(`http://localhost:3000/carData/${id}`,{
        method:'PATCH',
        headers:{
         'Content-Type':'application/json'
        },
-       body:JSON.stringify(carObj)
+       body:JSON.stringify({'likes':like+1})
     })
     .then(res=> res.json())
     .then(car=> console.log(car))
