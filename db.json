@@ -1,13 +1,6 @@
 {
   "carData": [
     {
-      "name": "Buick Enclave   $43,000 - $57,300",
-      "imageURL": "https://media.ed.edmunds-media.com/buick/enclave/2022/oem/2022_buick_enclave_4dr-suv_avenir_fq_oem_1_815.jpg",
-      "description": "The 2023 Buick Enclave is a midsize three-row SUV with seating for seven passengers. In this class of vehicles, the Enclave earns praise for its generous interior and cargo space, quiet and comfortable ride, and long list of standard features. In 2022, the Enclave received several updates that include freshened styling, interior updates and more standard technology features. As a result, we don't expect any significant changes for the 2023 Buick Enclave.",
-      "likes": 28,
-      "id": 13
-    },
-    {
       "name": "2023 Volkswagen Atlas  $34,600 - $51,790",
       "imageURL": "https://media.ed.edmunds-media.com/volkswagen/atlas/2022/oem/2022_volkswagen_atlas_4dr-suv_sel_fq_oem_1_815.jpg",
       "description": "The 2023 Volkswagen Atlas is a seven-passenger three-row SUV and is the largest vehicle VW currently sells in the U.S. The Atlas has been one of the better midsize three-row SUVs since it debuted in 2018, and it offers impressive passenger comfort, even in the third row. We also give it high marks for its simple, easy-to-use interior layout and its pleasant road manners.",
